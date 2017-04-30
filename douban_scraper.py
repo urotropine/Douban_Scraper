@@ -4,8 +4,8 @@ from BeautifulSoup import *
 
 serviceurl = ('https://book.douban.com/top250?')
 num = 25
-for page in [0*num,num,2*num,3*num,4*num,5*num,6*num,7*num]:
-    url = serviceurl + urllib.urlencode({'start':page})
+for page in [0*num,num,2*num,3*num,4*num,5*num,6*num,7*num]:  #pages to iterate
+    url = serviceurl + urllib.urlencode({'start':page})       #final url to visit
     print url
     
     uh = urllib.urlopen(url)
