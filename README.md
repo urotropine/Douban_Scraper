@@ -1,5 +1,5 @@
 # Douban_Scraper
-Code to scrape comments for the top-200 Douban Books
+Code to scrape comments for the top－rated 250 Douban Books
 
 Example result:
 
